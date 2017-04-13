@@ -1,0 +1,39 @@
+{
+  "name": "ubiquitous-goggles",
+  "version": "0.0.1",
+  "description": "webdriver io stuffs",
+  "main": "index.js",
+  "scripts": {
+    "manager": "webdriver-manager update && webdriver-manager start",
+    "wdio:sync": "wdio wdio.sync.conf.js",
+    "wdio:async": "wdio wdio.async.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orieken/ubiquitous-goggles.git"
+  },
+  "keywords": [
+    "webdriver.io",
+    "cucumber",
+    "jasmine",
+    "mocha"
+  ],
+  "author": "Oscar Rieken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orieken/ubiquitous-goggles/issues"
+  },
+  "homepage": "https://orieken.github.io/ubiquitous-goggles/",
+  "devDependencies": {
+    "chai": "^4.0.0-canary.1",
+    "chai-as-promised": "^6.0.0",
+    "chai-smoothie": "^0.2.1",
+    "cucumber": "^2.0.0-rc.9",
+    "jasmine": "^2.5.3",
+    "mocha": "^3.2.0",
+    "wdio-mocha-framework": "^0.5.9",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriver-manager": "^12.0.4",
+    "webdriverio": "^4.6.2"
+  }
+}
