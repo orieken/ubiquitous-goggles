@@ -15,10 +15,6 @@ class MyPageAsync {
     // then return an array of unique items there are only really 5
     return [...new Set(bigArray)]
   }
-
-  end() {
-    browser.end();
-  }
 }
 
 module.exports = MyPageAsync;
